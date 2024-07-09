@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Tarjetadeperfil{
+    width: 600px;
+    height: 300px;
+    margin: 50px;
+    border: 5px solid;
+    border-color: rgb(4, 109, 18);
+    border-radius: 8%;
+    background-color: beige;
+    overflow: auto;
+    position: relative;
+}
+
+h1{
+    color: yellowgreen;
+    padding: 20px;
+    text-align: center;
+    font-size: 3em;
+}
+
+.FotoDePerfil{
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    border: 3px solid;
+    border-color: black;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin: -35px 0 0 -35px;
+}
+
+h2{
+    font-style: italic;
+    color: rgb(4, 109, 18); 
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+ol li{
+    font-style: oblique;
+    color: rgb(4, 109, 18); 
+    position: absolute;
+    top: 70%;
+    padding: 20px;
+}
